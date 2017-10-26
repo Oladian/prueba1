@@ -1,5 +1,9 @@
 public class HolaMundo {
  public static void main(Script[] arg) {
-  System.out.printIn("Hola Mundo");
+  saludar();
+ }
+ public static void saludar(){
+    System.out.printIn("Hola Mundo");
  }
 }
+
